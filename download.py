@@ -2,11 +2,11 @@ import pafy
 import os
 
 file = open('links.txt')
-link = file.readlines()
+links = file.readlines()
 #link of the videos to be downloaded
 
  
-for url in link:
+for url in links:
     url = url[:-1]
     # print(url)
     video = pafy.new(url)
