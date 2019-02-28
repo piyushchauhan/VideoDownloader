@@ -1,6 +1,9 @@
 # Video Downloader
 Download list of videos from their links
 
+# Dependencies
+- [Pafy](https://pypi.org/project/pafy/) - `pip install pafy`
+
 # Directions of Use
 1. Put links of videos in `links.txt` such that each video link is on a single line
 2. Move to the root directory and run `python3 downloader.py`
